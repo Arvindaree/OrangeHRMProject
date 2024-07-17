@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OHRM]">
+  <test thread-count="5" name="demo test(failed)">
+    <parameter name="brow" value="chrome"/>
+    <classes>
+      <class name="com.OHRM.TestCases.TC001_Login">
+        <methods>
+          <include name="setup"/>
+          <include name="loginTest"/>
+          <include name="pimTest"/>
+        </methods>
+      </class> <!-- com.OHRM.TestCases.TC001_Login -->
+    </classes>
+  </test> <!-- demo test(failed) -->
+</suite> <!-- Failed suite [OHRM] -->

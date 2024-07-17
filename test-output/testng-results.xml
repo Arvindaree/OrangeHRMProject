@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-17T07:22:44Z" name="OHRM" finished-at="2024-07-17T07:24:03Z" duration-ms="78826">
+    <groups>
+    </groups>
+    <test started-at="2024-07-17T07:22:44Z" name="demo test" finished-at="2024-07-17T07:24:03Z" duration-ms="78826">
+      <class name="com.OHRM.TestCases.TC001_Login">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.OHRM.TestCases.TC001_Login@2bbf180e]" started-at="2024-07-17T07:22:44Z" name="setup" finished-at="2024-07-17T07:23:25Z" duration-ms="40701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.OHRM.TestCases.TC001_Login@2bbf180e]" started-at="2024-07-17T07:23:25Z" name="loginTest" finished-at="2024-07-17T07:23:32Z" duration-ms="7052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="pimTest()[pri:0, instance:com.OHRM.TestCases.TC001_Login@2bbf180e]" started-at="2024-07-17T07:23:32Z" name="pimTest" finished-at="2024-07-17T07:24:03Z" duration-ms="30901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pimTest -->
+      </class> <!-- com.OHRM.TestCases.TC001_Login -->
+    </test> <!-- demo test -->
+  </suite> <!-- OHRM -->
+</testng-results>

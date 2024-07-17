@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="OHRM">
+	<!-- <listeners>
+		<listener class-name="com.guru99V1.utilities.Reporting"/>
+	</listeners> -->
+	<test name="demo test">
+	<parameters>
+		<parameter name="brow" value="chrome"/>
+	</parameters>
+		<classes>
+			<class name="com.OHRM.TestCases.TC001_Login">
+				<methods>
+					<include name="loginTest"/>
+					<include name="pimTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

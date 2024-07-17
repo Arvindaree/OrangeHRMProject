@@ -28,6 +28,7 @@ public class TC001_Login extends BaseClass
 		
 		PIMPage pp=new PIMPage(driver);
 		pp.clickAddEmpl();
+		logger.info("adding employee");
 		pp.setFirstName();
 		pp.setMiddileName();
 		pp.setLastName();
